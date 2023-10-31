@@ -1,0 +1,168 @@
+.header {
+  background-color: #fff;
+  width: 1450px;
+}
+
+.header-nav {
+ width: 620px;
+}
+
+.header-link {
+ color: #000;
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 15.23px;
+ letter-spacing: 1px;
+ text-decoration: none;
+}
+
+.header-registration {
+ width: 155px;
+ height: 39px;
+ background-color: #ff7500;
+ color: #fff;
+ font-size: 13px;
+ font-weight: 700;
+ line-height: 15.23px;
+ letter-spacing: 0.5px;
+ text-decoration: none;
+}
+
+.widget {
+  width: 1450px;
+  background-color: #252420;
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.widget-item {
+  width: 390px;
+}
+
+.widget-items {
+ width: 380px;
+ height: 96px;
+ color: #fff;
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 48px;
+ letter-spacing: 0.5px;
+}
+
+.widget-itemes {
+  width: 400px;
+  height: 96px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-align: justify;
+}
+
+.widget-order {
+ width: 152px;
+ height: 39px;
+ background-color: #ff7500;
+ color: #fff;
+ font-size: 13px;
+ font-weight: 700;
+ line-height: 15.23px;
+ letter-spacing: 0.5px;
+ text-decoration: none;
+}
+
+.cont {
+  width: 1100px;
+}
+.content {
+ width: 435px;
+ height: 172px;
+ font-weight: 700;
+ font-size: 72px;
+ line-height: 86.4px;
+ letter-spacing: 0.5px;
+ color: #000;
+}
+
+.content-iconc {
+  width: 100px;
+  height: 100px;
+  background-color: #ff770096;
+}
+
+.content-item {
+ width: 340px;
+ height: 245px;
+}
+
+.content-tex {
+  width: 2500px;
+  height: 29px;
+  font-family: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.content-text {
+ width: 314px;
+ height: 72px;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.2;
+ letter-spacing: 0.5px;
+ color: #000;
+}
+
+.action {
+  width: 1100px;
+  background-color: #252420;
+}
+
+.action-item {
+ width: 440px;
+ height: 291px;
+}
+
+.action-tex {
+ width: 420px;
+ height: 96px;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 48px;
+ letter-spacing: 0.5px;
+ color: #fff;
+}
+
+.actiont-text {
+ width: 440px;
+ height: 108px;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.2;
+ letter-spacing: 0.5px;
+ color: #fff;
+}
+
+.footer {
+  width: 1450px;
+  background-color: #F8F8F8;
+}
+
+.footer-item {
+  width: 1100px;
+}
+
+.footer-text a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.87px;
+  color: #252420;
+  text-decoration:none;
+}
