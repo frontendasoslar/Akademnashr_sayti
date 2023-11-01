@@ -1,12 +1,18 @@
+/* Header */
 .header {
   background-color: #fff;
-  width: 1450px;
 }
 
+/* Header nav*/
 .header-nav {
  width: 620px;
 }
 
+.header-nav ul {
+  list-style: none;
+}
+
+/* Header link*/
 .header-link {
  color: #000;
  font-size: 13px;
@@ -14,8 +20,9 @@
  line-height: 15.23px;
  letter-spacing: 1px;
  text-decoration: none;
+ text-transform: uppercase;
 }
-
+/* Header regstration*/
 .header-registration {
  width: 155px;
  height: 39px;
@@ -28,8 +35,8 @@
  text-decoration: none;
 }
 
+/* Section one */
 .widget {
-  width: 1450px;
   background-color: #252420;
 }
 
@@ -39,10 +46,12 @@
   background-color: #ff7500;
 }
 
+/* Section one razmer */
 .widget-item {
   width: 390px;
 }
 
+/* Section one sarlavha */
 .widget-items {
  width: 380px;
  height: 96px;
@@ -53,6 +62,7 @@
  letter-spacing: 0.5px;
 }
 
+/* Section one matni */
 .widget-itemes {
   width: 400px;
   height: 96px;
@@ -64,6 +74,7 @@
   text-align: justify;
 }
 
+/* Section one order */
 .widget-order {
  width: 152px;
  height: 39px;
@@ -76,9 +87,11 @@
  text-decoration: none;
 }
 
-.cont {
-  width: 1100px;
+.widget-img {
+  object-fit: contain;
 }
+
+/* Section two content */
 .content {
  width: 435px;
  height: 172px;
@@ -89,19 +102,20 @@
  color: #000;
 }
 
+/* Section two iconca */
 .content-iconc {
   width: 100px;
   height: 100px;
   background-color: #ff770096;
 }
-
+/* Section two  */
 .content-item {
  width: 340px;
  height: 245px;
 }
 
 .content-tex {
-  width: 2500px;
+  width: 250px;
   height: 29px;
   font-family: 700;
   font-size: 24px;
@@ -121,7 +135,6 @@
 }
 
 .action {
-  width: 1100px;
   background-color: #252420;
 }
 
@@ -150,9 +163,20 @@
  color: #fff;
 }
 
+.action-img {
+  object-fit: contain;
+}
+
 .footer {
-  width: 1450px;
   background-color: #F8F8F8;
+}
+
+.footer ul {
+  list-style: none;
+}
+.hero-line {
+ background-color: rgba(37, 36, 32, 0.5);
+ height: 2px;
 }
 
 .footer-item {
