@@ -1,11 +1,31 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
 /* Header */
 .header {
+  width: 1450px;
   background-color: #fff;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
 }
 
 /* Header nav*/
 .header-nav {
- width: 620px;
+ display: flex;
 }
 
 .header-nav ul {
@@ -16,6 +36,7 @@
 .header-link {
  color: #000;
  font-size: 13px;
+ font-family: "Roboto", "Arial", sans-serif;
  font-weight: 500;
  line-height: 15.23px;
  letter-spacing: 1px;
@@ -25,19 +46,24 @@
 /* Header regstration*/
 .header-registration {
  width: 155px;
- height: 39px;
  background-color: #ff7500;
  color: #fff;
  font-size: 13px;
  font-weight: 700;
  line-height: 15.23px;
  letter-spacing: 0.5px;
+ text-align: center;
  text-decoration: none;
+ font-family: "Roboto", "Arial", sans-serif;
 }
 
 /* Section one */
 .widget {
+  width: 1450px;
   background-color: #252420;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .line {
@@ -53,21 +79,19 @@
 
 /* Section one sarlavha */
 .widget-items {
- width: 380px;
+ width: 500px;
  height: 96px;
  color: #fff;
- font-size: 40px;
  font-weight: 700;
  line-height: 48px;
  letter-spacing: 0.5px;
+ font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 /* Section one matni */
 .widget-itemes {
   width: 400px;
   height: 96px;
-  font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.5px;
   color: #fff;
@@ -85,6 +109,7 @@
  line-height: 15.23px;
  letter-spacing: 0.5px;
  text-decoration: none;
+ font-family: "Roboto", "Arial", sans-serif;
 }
 
 .widget-img {
@@ -100,8 +125,14 @@
  line-height: 86.4px;
  letter-spacing: 0.5px;
  color: #000;
+ font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
+.content-list{
+  width: 1450px;
+  display: flex;
+  justify-content:space-around;
+}
 /* Section two iconca */
 .content-iconc {
   width: 100px;
@@ -122,19 +153,22 @@
   line-height: 28.8px;
   letter-spacing: 0.5px;
   color: #000;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .content-text {
  width: 314px;
  height: 72px;
- font-weight: 400;
- font-size: 16px;
  line-height: 1.2;
  letter-spacing: 0.5px;
  color: #000;
 }
 
 .action {
+  width: 1450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #252420;
 }
 
@@ -151,12 +185,12 @@
  line-height: 48px;
  letter-spacing: 0.5px;
  color: #fff;
+ font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .actiont-text {
  width: 440px;
  height: 108px;
- font-weight: 400;
  font-size: 16px;
  line-height: 1.2;
  letter-spacing: 0.5px;
@@ -167,8 +201,25 @@
   object-fit: contain;
 }
 
+.action-strong {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #ff7500;
+}
+
 .footer {
+  width: 1450px;
   background-color: #F8F8F8;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.web {
+  display: flex;
+  justify-content:space-around;
 }
 
 .footer ul {
@@ -181,11 +232,11 @@
 
 .footer-item {
   width: 1100px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-text a {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 18.87px;
   color: #252420;
   text-decoration:none;
