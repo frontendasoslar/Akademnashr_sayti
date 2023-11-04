@@ -4,7 +4,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-
+/* *:focus {
+  outline-color: dodgerblue;
+  outline-offset: 3px;
+  outline-width: 3px;
+  outline-style: dashed;
+} */
 /* Header */
 .header {
   width: 1450px;
@@ -12,6 +17,19 @@ body {
   display: flex;
   justify-content:space-between;
   align-items: center;
+}
+
+.logo-site {
+ width: 230px;
+ transition: opacity 0.4s ease;
+}
+
+.logo-site:hover {
+ opacity: 0.8;
+}
+
+.logo-site:active {
+  opacity: 0.6;
 }
 
 .nav-links {
@@ -42,7 +60,17 @@ body {
  letter-spacing: 1px;
  text-decoration: none;
  text-transform: uppercase;
+ transition: color 0.5s ease, opacity 0.5s ease;
 }
+
+.header-link:hover {
+  color: #ff7500;
+}
+
+.header-link:active {
+  opacity: 0.6;
+}
+
 /* Header regstration*/
 .header-registration {
  width: 155px;
@@ -55,6 +83,15 @@ body {
  text-align: center;
  text-decoration: none;
  font-family: "Roboto", "Arial", sans-serif;
+ transition: opacity 0.5s ease;
+}
+
+.header-registration:hover {
+  opacity: 0.8;
+}
+
+.header-registration:active {
+  opacity: 0.6;
 }
 
 /* Section one */
@@ -110,6 +147,15 @@ body {
  letter-spacing: 0.5px;
  text-decoration: none;
  font-family: "Roboto", "Arial", sans-serif;
+ transition: opacity 0.5s ease;
+}
+
+.widget-order:hover {
+  opacity: 0.8;
+}
+
+.widget-order:active {
+  opacity: 0.6;
 }
 
 .widget-img {
@@ -134,10 +180,10 @@ body {
   justify-content:space-around;
 }
 /* Section two iconca */
-.content-iconc {
+  .iconc {
   width: 100px;
   height: 100px;
-  background-color: #ff770096;
+  background-color: #be8e6496;
 }
 /* Section two  */
 .content-item {
@@ -222,6 +268,19 @@ body {
   justify-content:space-around;
 }
 
+.web-img {
+  color: #252420;
+  transition: color 0.5s ease, opacity 0.5s ease;
+}
+
+.web-img:hover {
+  color: #ff7500;
+}
+
+.web-img:active {
+ opacity: 0.6;
+}
+
 .footer ul {
   list-style: none;
 }
@@ -240,4 +299,13 @@ body {
   line-height: 18.87px;
   color: #252420;
   text-decoration:none;
+  transition: color 0.5s ease, opacity 0.5s ease;
+}
+
+.footer-text a:hover {
+  color: #ff7500;
+}
+
+.footer-text a:active {
+  opacity: 0.6;
 }
