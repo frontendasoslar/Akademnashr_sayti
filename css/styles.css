@@ -4,19 +4,23 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-/* *:focus {
-  outline-color: dodgerblue;
+*:focus {
+  outline-color: #ff7500;
   outline-offset: 3px;
-  outline-width: 3px;
+  outline-width: 2px;
   outline-style: dashed;
-} */
+}
 /* Header */
 .header {
+  border-top: 5px solid #ff7500;
   width: 1450px;
   background-color: #fff;
   display: flex;
   justify-content:space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
 }
 
 .logo-site {
@@ -35,6 +39,7 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .nav-link {
@@ -84,6 +89,11 @@ body {
  text-decoration: none;
  font-family: "Roboto", "Arial", sans-serif;
  transition: opacity 0.5s ease;
+ padding: 10px 20px 10px 20px;
+ border-radius: 4px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .header-registration:hover {
@@ -107,11 +117,13 @@ body {
   width: 80px;
   height: 3px;
   background-color: #ff7500;
+  border: 0;
 }
 
 /* Section one razmer */
 .widget-item {
   width: 390px;
+  height: 330px;
 }
 
 /* Section one sarlavha */
@@ -135,31 +147,45 @@ body {
   text-align: justify;
 }
 
-/* Section one order */
-.widget-order {
- width: 152px;
- height: 39px;
- background-color: #ff7500;
- color: #fff;
- font-size: 13px;
- font-weight: 700;
- line-height: 15.23px;
- letter-spacing: 0.5px;
- text-decoration: none;
- font-family: "Roboto", "Arial", sans-serif;
- transition: opacity 0.5s ease;
+.primary-buttom {
+  width: 152px;
+  height: 39px;
+  background-color: #ff7500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: opacity 0.5s ease;
 }
 
-.widget-order:hover {
+.primary-buttom:hover {
   opacity: 0.8;
 }
 
-.widget-order:active {
+.primary-buttom:active {
   opacity: 0.6;
 }
 
+/* Section one order */
+.widget-order {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-family: "Roboto", "Arial", sans-serif;
+ }
+
 .widget-img {
   object-fit: contain;
+  border-radius: 8px;
+}
+
+.feauture {
+  width: 1450px;
+  padding-bottom: 210px;
+  padding-top: 210px;
 }
 
 /* Section two content */
@@ -172,18 +198,30 @@ body {
  letter-spacing: 0.5px;
  color: #000;
  font-family: "Roboto Condensed", "Arial", sans-serif;
+ padding-left: 170px;
 }
 
 .content-list{
-  width: 1450px;
+  width: 1100px;
+  height: 245px;
   display: flex;
   justify-content:space-around;
+  padding-left: 170px;
+
 }
 /* Section two iconca */
   .iconc {
   width: 100px;
   height: 100px;
   background-color: #be8e6496;
+  border-radius: 50%;
+}
+
+.iconc-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
 /* Section two  */
 .content-item {
@@ -211,11 +249,13 @@ body {
 }
 
 .action {
-  width: 1450px;
+  width: 1100px;
+  height: 419px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   align-items: center;
   background-color: #252420;
+  border-radius: 12px;
 }
 
 .action-item {
