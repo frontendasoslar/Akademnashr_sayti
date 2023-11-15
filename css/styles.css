@@ -44,6 +44,7 @@ body {
 
 .nav-link {
   display: flex;
+  margin: 0;
 }
 
 /* Header nav*/
@@ -120,6 +121,8 @@ body {
   height: 3px;
   background-color: #ff7500;
   border: 0;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 /* Section one razmer */
@@ -137,6 +140,8 @@ body {
  line-height: 48px;
  letter-spacing: 0.5px;
  font-family: "Roboto Condensed", "Arial", sans-serif;
+ margin: 0;
+ margin-bottom: 30px;
 }
 
 /* Section one matni */
@@ -147,6 +152,8 @@ body {
   letter-spacing: 0.5px;
   color: #fff;
   text-align: justify;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .primary-buttom {
@@ -190,6 +197,15 @@ body {
   padding-top: 210px;
 }
 
+.line-1 {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  border: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 170px;
+}
 /* Section two content */
 .content {
  width: 435px;
@@ -201,6 +217,8 @@ body {
  color: #000;
  font-family: "Roboto Condensed", "Arial", sans-serif;
  padding-left: 170px;
+ margin: 0;
+ margin-bottom: 40px;
 }
 
 .content-list{
@@ -209,6 +227,7 @@ body {
   display: flex;
   justify-content:space-around;
   padding-left: 170px;
+  margin: 0;
 
 }
 /* Section two iconca */
@@ -251,13 +270,14 @@ body {
 }
 
 .action {
-  width: 1100px;
-  height: 419px;
+  width: 1450px;
   display: flex;
   justify-content:space-around;
   align-items: center;
   background-color: #252420;
   border-radius: 12px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .action-item {
@@ -287,6 +307,7 @@ body {
 
 .action-img {
   object-fit: contain;
+  border-radius: 20px;
 }
 
 .action-strong {
@@ -308,11 +329,13 @@ body {
 .web {
   display: flex;
   justify-content:space-around;
+  margin: 0;
 }
 
 .web-img {
   color: #252420;
   transition: color 0.5s ease, opacity 0.5s ease;
+  margin: 0;
   margin-left: 30px;
 }
 
@@ -328,8 +351,12 @@ body {
   list-style: none;
 }
 .hero-line {
+  width: 1100px;
  background-color: rgba(37, 36, 32, 0.5);
  height: 2px;
+ border: 0;
+ margin: 0;
+ margin-left: 70px;
 }
 
 .footer-item {
