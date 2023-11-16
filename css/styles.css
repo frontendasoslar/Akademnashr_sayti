@@ -26,6 +26,7 @@ body {
 .logo-site {
  width: 230px;
  transition: opacity 0.4s ease;
+ display: block;
 }
 
 .logo-site:hover {
@@ -337,6 +338,7 @@ body {
   transition: color 0.5s ease, opacity 0.5s ease;
   margin: 0;
   margin-left: 30px;
+  display: block;
 }
 
 .web-img:hover {
@@ -345,6 +347,10 @@ body {
 
 .web-img:active {
  opacity: 0.6;
+}
+
+.social {
+  display: block;
 }
 
 .footer ul {
@@ -357,6 +363,7 @@ body {
  border: 0;
  margin: 0;
  margin-left: 70px;
+ margin-top: 10px;
 }
 
 .footer-item {
