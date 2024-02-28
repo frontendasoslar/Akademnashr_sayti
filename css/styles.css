@@ -74,6 +74,7 @@ body {
 /* CONTANIER */
 
 .contanier {
+  position: relative;
   width: 100%;
   max-width: 1140px;
   padding-left: 20px;
@@ -260,6 +261,11 @@ body {
  }
 
 .widget-img {
+  position: relative;
+  top: 40px;
+  width: 510px;
+  height: 510px;
+  position: relative;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.60);
@@ -384,6 +390,8 @@ body {
 }
 
 .action-img {
+  position: relative;
+  bottom: 70px;
   object-fit: contain;
   border-radius: 20px;
 }
